@@ -1,0 +1,18 @@
+section {
+    height: 100vh;
+}
+
+#welcome-section {
+    background-color: black;
+    color: white;
+}
+
+#projects {
+    background-color: royalblue;
+    color: white;
+}
+
+#contact {
+    background-color: rebeccapurple;
+    color: white;
+}

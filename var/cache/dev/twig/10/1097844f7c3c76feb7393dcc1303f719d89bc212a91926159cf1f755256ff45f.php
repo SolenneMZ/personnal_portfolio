@@ -52,28 +52,31 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 \t    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">
         <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">
         <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.6.3/css/all.css\" integrity=\"sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/\" crossorigin=\"anonymous\">
+        <link href=\"https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap\" rel=\"stylesheet\">
+        <link href=\"https://fonts.googleapis.com/css?family=Big+Shoulders+Display:400,700&display=swap\" rel=\"stylesheet\">
+        <link href=\"https://fonts.googleapis.com/css?family=Be+Vietnam:400,700&display=swap\" rel=\"stylesheet\">
         <link href=\"";
-        // line 9
+        // line 12
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/style.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
         <title>";
-        // line 10
+        // line 13
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
 
         ";
-        // line 12
+        // line 15
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 13
+        // line 16
         echo "    </head>
     <body>
         ";
-        // line 15
+        // line 18
         $this->displayBlock('body', $context, $blocks);
-        // line 16
+        // line 19
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 17
+        // line 20
         echo "    </body>
 </html>
 ";
@@ -85,7 +88,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 10
+    // line 13
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -104,7 +107,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 12
+    // line 15
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -122,7 +125,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 15
+    // line 18
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -140,7 +143,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 16
+    // line 19
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -170,7 +173,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     public function getDebugInfo()
     {
-        return array (  144 => 16,  126 => 15,  108 => 12,  89 => 10,  77 => 17,  74 => 16,  72 => 15,  68 => 13,  66 => 12,  61 => 10,  57 => 9,  47 => 1,);
+        return array (  147 => 19,  129 => 18,  111 => 15,  92 => 13,  80 => 20,  77 => 19,  75 => 18,  71 => 16,  69 => 15,  64 => 13,  60 => 12,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -183,6 +186,9 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 \t    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">
         <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">
         <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.6.3/css/all.css\" integrity=\"sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/\" crossorigin=\"anonymous\">
+        <link href=\"https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap\" rel=\"stylesheet\">
+        <link href=\"https://fonts.googleapis.com/css?family=Big+Shoulders+Display:400,700&display=swap\" rel=\"stylesheet\">
+        <link href=\"https://fonts.googleapis.com/css?family=Be+Vietnam:400,700&display=swap\" rel=\"stylesheet\">
         <link href=\"{{ asset('css/style.css') }}\" rel=\"stylesheet\">
         <title>{% block title %}Welcome!{% endblock %}</title>
 

@@ -1,3 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Be Vietnam', sans-serif;
+    */
+}
+
+nav {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    /* text-transform: uppercase; */
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding-left: 0.8em;
+}
+
+nav a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
 section {
     height: 100vh;
 }
@@ -13,6 +45,11 @@ section {
 }
 
 #contact {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+footer {
     background-color: rebeccapurple;
     color: white;
 }

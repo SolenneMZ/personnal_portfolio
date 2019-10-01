@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Big Shoulders Display', cursive;
@@ -17,12 +18,13 @@ nav {
     top: 0;
     right: 0;
     width: 100%;
-    background-color: white;
+    background-color: black;
     z-index: 2;
+    border-bottom: 1px solid lightgrey;
 }
 
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding-left: 0.8em;
 }
@@ -39,6 +41,7 @@ section {
     display: flex;
 }
 
+/** WELCOME SECTION **/
 #welcome-section {
     background-color: black;
     color: white;
@@ -50,20 +53,41 @@ section {
     text-align: center;
 }
 
+#welcome-section .profile_picture {
+    padding-top: 1em;
+}
+
+#welcome-section .profile_picture img {
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 45%;
+    height: 45%;
+}
+
+/** /WELCOME SECTION **/
+
+/** PROJECTS SECTION **/
 #projects {
     background-color: royalblue;
     color: white;
+    border: 1px solid red;    
 }
 
 #projects h1 {
+    width: 5em;
     margin-top: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
+    border: 1px solid red;
 }
 
 #projects .card {
     z-index: 1;
 }
+/** /PROJECTS SECTION **/
 
+/** CONTACT SECTION **/
 #contact {
     background-color: rebeccapurple;
     color: white;
@@ -73,4 +97,6 @@ footer {
     background-color: rebeccapurple;
     color: white;
 }
+/** /CONTACT SECTION **/
+
 /**** /SECTIONS ****/

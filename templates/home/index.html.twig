@@ -3,29 +3,61 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block body %}
-<nav>
-    <a href="#welcome-section">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
+
 
 <section id="welcome-section">
-    <h1>Hi I am Solenne</h1>
-    <h1>a web developper</h1>
+
+    <div>
+
+        <h1>Hi I am Solenne</h1>
+        <h1>a web developper</h1>
+
+    </div>
+
 </section>
 
 <section id="projects">
-    <h1>Mes projets</h1>
-    <div class="project-tile"></div>
-    {# add link to projet #}
+
+    <div>
+
+        <h1>Projects</h1>
+
+            <div class="project-tile row">
+
+                <div class="card w-25">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                </div>
+
+                <div class="card w-25">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                </div>
+
+            </div>        
+        
+        {# add link to projet #}
+
+    </div>
+
 </section>
 
 <section id="contact">
-    <h1>Me contacter</h1>
-    <a href="#" target="_blank" id="profile-link">Opens my Github profile + FCC</a>
+
+    <div>
+
+        <h1>Me contacter</h1>
+        <a href="#" target="_blank" id="profile-link">Opens my Github profile + FCC</a>
+    
+    </div>
+
 </section>
 
-<footer>
-MON FOOTER
-</footer>
+
 {% endblock %}

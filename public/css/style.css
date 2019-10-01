@@ -5,6 +5,7 @@ body {
     */
 }
 
+/**** NAV ****/
 nav {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 1.5em;
@@ -29,9 +30,12 @@ nav a:hover {
     color: grey;
     text-decoration: none;
 }
+/**** /NAV ****/
 
+/**** SECTIONS ****/
 section {
     height: 100vh;
+    display: flex;
 }
 
 #welcome-section {
@@ -39,9 +43,20 @@ section {
     color: white;
 }
 
+#welcome-section div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
 #projects {
     background-color: royalblue;
     color: white;
+}
+
+#projects h1 {
+    margin-top: 1.5em;
+    text-align: center;
 }
 
 #contact {
@@ -53,3 +68,4 @@ footer {
     background-color: rebeccapurple;
     color: white;
 }
+/**** /SECTIONS ****/

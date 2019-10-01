@@ -70,14 +70,27 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
         // line 16
         echo "    </head>
     <body>
+        <nav>
+
+            <a href=\"#welcome-section\">About</a>
+            <a href=\"#projects\">Projects</a>
+            <a href=\"#contact\">Contact</a>
+        
+        </nav>
+
         ";
-        // line 18
+        // line 26
         $this->displayBlock('body', $context, $blocks);
-        // line 19
+        // line 27
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 20
-        echo "    </body>
+        // line 28
+        echo "
+        <footer>
+            MON FOOTER
+        </footer>
+        
+    </body>
 </html>
 ";
         
@@ -125,7 +138,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 18
+    // line 26
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -143,7 +156,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 19
+    // line 27
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -173,7 +186,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     public function getDebugInfo()
     {
-        return array (  147 => 19,  129 => 18,  111 => 15,  92 => 13,  80 => 20,  77 => 19,  75 => 18,  71 => 16,  69 => 15,  64 => 13,  60 => 12,  47 => 1,);
+        return array (  160 => 27,  142 => 26,  124 => 15,  105 => 13,  88 => 28,  85 => 27,  83 => 26,  71 => 16,  69 => 15,  64 => 13,  60 => 12,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -195,8 +208,21 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+        <nav>
+
+            <a href=\"#welcome-section\">About</a>
+            <a href=\"#projects\">Projects</a>
+            <a href=\"#contact\">Contact</a>
+        
+        </nav>
+
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+
+        <footer>
+            MON FOOTER
+        </footer>
+        
     </body>
 </html>
 ", "base.html.twig", "/var/www/html/personnal_portfolio/templates/base.html.twig");

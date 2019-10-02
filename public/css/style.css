@@ -127,6 +127,13 @@ section {
         background-size: 20em 15em;
     }
 
+    /** SITE VITRINE **/
+    #projects #project_site_vitrine {
+        background-image: url(../assets/site_vitrine_screen.png);
+        background-position: top left;
+        background-size: 20em 15em;
+    }
+
 /** /PROJECTS SECTION **/
 
 /** CONTACT SECTION **/

@@ -103,17 +103,50 @@ section {
     height: 15em;
 }
 
+#projects .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 #projects .card-title {
     color: black;
+    font-weight: bold;
+    font-size: 1.8em;
 }
+
+#projects .btn {
+    position: relative;
+    align-self: flex-end;
+}
+
+    /** YELLOW TRIBE **/
+    #projects #project_yellow_tribe {
+        background-image: url(../assets/Yellow_tribe_screen.png);
+        background-position: top left;
+        background-size: 20em 15em;
+    }
 
 /** /PROJECTS SECTION **/
 
 /** CONTACT SECTION **/
 #contact {
     background: linear-gradient(#515359, #6B6D75);
-    background-color: #515359;
     color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#contact h1 {
+    width: 10em;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid lightgray;
 }
 
 /** /CONTACT SECTION **/

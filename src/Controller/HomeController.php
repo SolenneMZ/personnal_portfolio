@@ -18,22 +18,12 @@ class HomeController extends AbstractController
     }
 
     /**
-     * @Route("/yellow", name="yellow", methods={"GET"})
+     * @Route("/yellow-tribe", name="yellow_tribe")
      */
-    public function yellowTribeProject()
+    public function projectYellowTribe()
     {
         return $this->render('projects/yellow_tribe.html.twig', [
-            'title' => 'Bienvenue sur le site de Solenne Mazabraud',
+           'title' => 'Project Yellow Tribe', 
         ]);
     }
-
-    // /**
-    //  * @Route("/yellow-tribe", name="yellow_tribe")
-    //  */
-    // public function projectYellowTribe()
-    // {
-    //     return $this->render('projects/yellow_tribe.html.twig', [
-    //        'title' => 'Project Yellow Tribe', 
-    //     ]);
-    // }
 }

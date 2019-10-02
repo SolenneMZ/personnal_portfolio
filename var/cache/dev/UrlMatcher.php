@@ -14,7 +14,7 @@ return [
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
         '/' => [[['_route' => 'home', '_controller' => 'App\\Controller\\HomeController::index'], null, null, null, false, false, null]],
-        '/yellow' => [[['_route' => 'yellow', '_controller' => 'App\\Controller\\HomeController::yellowTribeProject'], null, ['GET' => 0], null, false, false, null]],
+        '/yellow-tribe' => [[['_route' => 'yellow_tribe', '_controller' => 'App\\Controller\\HomeController::projectYellowTribe'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

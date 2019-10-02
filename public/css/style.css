@@ -43,7 +43,7 @@ section {
 
 /** WELCOME SECTION **/
 #welcome-section {
-    background-color: black;
+    background: linear-gradient(#000000, #2A2B2E);
     color: white;
 }
 
@@ -68,18 +68,22 @@ section {
 
 /** PROJECTS SECTION **/
 #projects {
-    background-color: royalblue;
+    background: linear-gradient(#2A2B2E, #515359);
     color: white; 
     display: flex;
     justify-content: center;
 }
 
 #projects h1 {
-    width: 5em;
+    width: 10em;
     margin: auto;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid lightgray;
 }
 
 #projects .project-tile {
@@ -99,18 +103,25 @@ section {
     height: 15em;
 }
 
+#projects .card-title {
+    color: black;
+}
+
 /** /PROJECTS SECTION **/
 
 /** CONTACT SECTION **/
 #contact {
-    background-color: rebeccapurple;
+    background: linear-gradient(#515359, #6B6D75);
+    background-color: #515359;
     color: white;
 }
 
-footer {
-    background-color: rebeccapurple;
-    color: white;
-}
 /** /CONTACT SECTION **/
 
 /**** /SECTIONS ****/
+
+
+footer {
+    background-color: #6B6D75;
+    color: white;
+}

@@ -16,4 +16,24 @@ class HomeController extends AbstractController
             'title' => 'Bienvenue sur le site de Solenne Mazabraud',
         ]);
     }
+
+    /**
+     * @Route("/yellow", name="yellow", methods={"GET"})
+     */
+    public function yellowTribeProject()
+    {
+        return $this->render('projects/yellow_tribe.html.twig', [
+            'title' => 'Bienvenue sur le site de Solenne Mazabraud',
+        ]);
+    }
+
+    // /**
+    //  * @Route("/yellow-tribe", name="yellow_tribe")
+    //  */
+    // public function projectYellowTribe()
+    // {
+    //     return $this->render('projects/yellow_tribe.html.twig', [
+    //        'title' => 'Project Yellow Tribe', 
+    //     ]);
+    // }
 }

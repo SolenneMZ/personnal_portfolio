@@ -69,22 +69,36 @@ section {
 /** PROJECTS SECTION **/
 #projects {
     background-color: royalblue;
-    color: white;
-    border: 1px solid red;    
+    color: white; 
+    display: flex;
+    justify-content: center;
 }
 
 #projects h1 {
     width: 5em;
+    margin: auto;
     margin-top: 1.5em;
-    margin-right: auto;
-    margin-left: auto;
+    margin-bottom: 1.5em;
     text-align: center;
-    border: 1px solid red;
+}
+
+#projects .project-tile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
 }
 
 #projects .card {
     z-index: 1;
 }
+
+#projects .card-project {
+    width: 20em;
+    height: 15em;
+}
+
 /** /PROJECTS SECTION **/
 
 /** CONTACT SECTION **/

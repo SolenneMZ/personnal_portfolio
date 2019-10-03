@@ -157,13 +157,28 @@ section {
     border-bottom: 1px solid lightgray;
 }
 
+#contact .social_link {
+    margin-top: 2em;
+}
+
+#contact .social_link i {
+    font-size: 5em;
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+}
+
+#contact .personnal_contact {
+    font-size: 1.4em;
+    padding-top: 1em;
+}
+
 /** /CONTACT SECTION **/
 
 /**** /SECTIONS ****/
 
 
-footer {
+/* footer {
     background-color: #6B6D75;
     color: white;
     width: 100%;
-}
+} */

@@ -91,7 +91,6 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
         // line 29
         echo "
         <footer>
-            MON FOOTER
         </footer>
         
     </body>
@@ -190,7 +189,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     public function getDebugInfo()
     {
-        return array (  164 => 28,  146 => 27,  128 => 16,  109 => 14,  92 => 29,  89 => 28,  87 => 27,  75 => 17,  73 => 16,  68 => 14,  64 => 13,  60 => 12,  47 => 1,);
+        return array (  163 => 28,  145 => 27,  127 => 16,  108 => 14,  92 => 29,  89 => 28,  87 => 27,  75 => 17,  73 => 16,  68 => 14,  64 => 13,  60 => 12,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -225,7 +224,6 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
         {% block javascripts %}{% endblock %}
 
         <footer>
-            MON FOOTER
         </footer>
         
     </body>

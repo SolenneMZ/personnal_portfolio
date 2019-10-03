@@ -1,4 +1,4 @@
-@media (min-width: 350px) and (max-width: 800px) {
+@media (min-width: 30px) and (max-width: 800px) {
     /* body, nav, footer, section, div, h1, a, h5 {
         border: 1px solid red;
     } */
@@ -31,6 +31,12 @@
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 0;
 
+    }
+
+    #contact .social_link i {
+        font-size: 3.5em;
+        padding-right: 0.25em;
+        padding-left: 0.25em;
     }
 }
 

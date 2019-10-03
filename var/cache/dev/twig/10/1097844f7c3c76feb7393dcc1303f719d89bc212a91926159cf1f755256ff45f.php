@@ -59,15 +59,19 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
         // line 12
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/style.css"), "html", null, true);
         echo "\" rel=\"stylesheet\">
-        <title>";
+        <link href=\"";
         // line 13
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/responsive.css"), "html", null, true);
+        echo "\" rel=\"stylesheet\">
+        <title>";
+        // line 14
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
 
         ";
-        // line 15
-        $this->displayBlock('stylesheets', $context, $blocks);
         // line 16
+        $this->displayBlock('stylesheets', $context, $blocks);
+        // line 17
         echo "    </head>
     <body>
         <nav>
@@ -79,12 +83,12 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
         </nav>
 
         ";
-        // line 26
-        $this->displayBlock('body', $context, $blocks);
         // line 27
+        $this->displayBlock('body', $context, $blocks);
+        // line 28
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 28
+        // line 29
         echo "
         <footer>
             MON FOOTER
@@ -101,7 +105,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 13
+    // line 14
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -120,7 +124,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 15
+    // line 16
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -138,7 +142,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 26
+    // line 27
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -156,7 +160,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     }
 
-    // line 27
+    // line 28
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -186,7 +190,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     public function getDebugInfo()
     {
-        return array (  160 => 27,  142 => 26,  124 => 15,  105 => 13,  88 => 28,  85 => 27,  83 => 26,  71 => 16,  69 => 15,  64 => 13,  60 => 12,  47 => 1,);
+        return array (  164 => 28,  146 => 27,  128 => 16,  109 => 14,  92 => 29,  89 => 28,  87 => 27,  75 => 17,  73 => 16,  68 => 14,  64 => 13,  60 => 12,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -203,6 +207,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
         <link href=\"https://fonts.googleapis.com/css?family=Big+Shoulders+Display:400,700&display=swap\" rel=\"stylesheet\">
         <link href=\"https://fonts.googleapis.com/css?family=Be+Vietnam:400,700&display=swap\" rel=\"stylesheet\">
         <link href=\"{{ asset('css/style.css') }}\" rel=\"stylesheet\">
+        <link href=\"{{ asset('css/responsive.css') }}\" rel=\"stylesheet\">
         <title>{% block title %}Welcome!{% endblock %}</title>
 
         {% block stylesheets %}{% endblock %}

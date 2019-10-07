@@ -150,6 +150,11 @@ section {
     #project_section .project_example {
         height: 60vh;
     }
+
+    #project_section .project_example .fa-arrow-down {
+        display: none;
+    }
+
     #project_section .project_example p {
         width: 70%;
         margin: auto;
@@ -161,7 +166,7 @@ section {
     }
 
     #project_section .project_information {
-        height: 40vh;
+        height: 49vh;
         margin-right: 0.5em;
         text-align: justify;
     }

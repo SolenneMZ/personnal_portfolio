@@ -130,7 +130,7 @@ section {
 
     /** SITE VITRINE **/
     #projects #project_site_vitrine {
-        background-image: url(../assets/site_vitrine_screen.png);
+        /* background-image: url(../assets/site_vitrine_screen.png); */
         background-position: top left;
         background-size: 20em 15em;
     }

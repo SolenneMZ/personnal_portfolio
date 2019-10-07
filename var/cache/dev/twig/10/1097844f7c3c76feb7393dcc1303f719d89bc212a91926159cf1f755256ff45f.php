@@ -76,9 +76,18 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
     <body>
         <nav>
 
-            <a href=\"#welcome-section\">About</a>
-            <a href=\"#projects\">Projects</a>
-            <a href=\"#contact\">Contact</a>
+            <a href=\"";
+        // line 21
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home");
+        echo "#welcome-section\">About</a>
+            <a href=\"";
+        // line 22
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home");
+        echo "#projects\">Projects</a>
+            <a href=\"";
+        // line 23
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home");
+        echo "#contact\">Contact</a>
         
         </nav>
 
@@ -189,7 +198,7 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
 
     public function getDebugInfo()
     {
-        return array (  163 => 28,  145 => 27,  127 => 16,  108 => 14,  92 => 29,  89 => 28,  87 => 27,  75 => 17,  73 => 16,  68 => 14,  64 => 13,  60 => 12,  47 => 1,);
+        return array (  172 => 28,  154 => 27,  136 => 16,  117 => 14,  101 => 29,  98 => 28,  96 => 27,  89 => 23,  85 => 22,  81 => 21,  75 => 17,  73 => 16,  68 => 14,  64 => 13,  60 => 12,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -214,9 +223,9 @@ class __TwigTemplate_bba37f563a5e776d38bf009e5eb5758fe244c8d7e87958a2d3f9274361d
     <body>
         <nav>
 
-            <a href=\"#welcome-section\">About</a>
-            <a href=\"#projects\">Projects</a>
-            <a href=\"#contact\">Contact</a>
+            <a href=\"{{ path('home')}}#welcome-section\">About</a>
+            <a href=\"{{ path('home')}}#projects\">Projects</a>
+            <a href=\"{{ path('home')}}#contact\">Contact</a>
         
         </nav>
 

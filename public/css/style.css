@@ -207,15 +207,23 @@ section {
     margin-top: 2em;
 }
 
+#contact .personnal_contact {
+    font-size: 1.4em;
+    padding-top: 1em;
+}
+
+#contact .social_link a {
+    color: white;
+}
+
+#contact .social_link a:hover {
+    color: grey;
+}
+
 #contact .social_link i {
     font-size: 5em;
     padding-right: 0.25em;
     padding-left: 0.25em;
-}
-
-#contact .personnal_contact {
-    font-size: 1.4em;
-    padding-top: 1em;
 }
 
 /** /CONTACT SECTION **/

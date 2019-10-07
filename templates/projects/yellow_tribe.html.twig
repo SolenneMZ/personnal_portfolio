@@ -3,6 +3,39 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block body %}
-<h1>ALLO</h1>
-<a href="{{ path('home')}}#projects" class="btn btn-secondary">Return to projects</a> 
+<section id="project_section">
+    <div class="project_example">
+        <h1>Yellow Tribe</h1>
+        <p>
+            De la gestion de l'emploi du temps des enfants à l'organisation d'événements particuliers, Yellow Tribe est un projet de réseau social qui s'adresse principalement à la famille. 
+        </p>
+        <img class="project_image" src="{{ asset('assets/Yellow_tribe_screen.png') }}" alt="Calendar from Yellow Tribe website">
+    </div>
+
+    <div class="project_information">
+        <p>
+            <span>Objectif :</span> faciliter la communication et l'organisation autour d'événements en mettant à disposition des utilisateurs un calendrier partagé.
+        </p>
+        <p>
+            <span>Technologies :</span> Symfony et React
+        </p>
+        <p>
+            <span>Réalisations personnelles :</span> 
+            <ul>
+                <li>élaboration du cahier des charges</li>
+                <li>conception du modèle conceptuel de données</li>
+                <li>production et intégration de la maquette</li>
+                <li>création d'un jeu de données factices </li>
+                <li>mise en place du système d'authentification et des permissions</li>
+                <li>gestion des formulaires (inscription, invitation, événements, etc)</li>
+                <li>conception de l'API selon les besoins de l'application</li>
+            </ul>
+        </p>
+        <div><a href="{{ path('home')}}#projects" class="btn btn-secondary">Return to projects</a></div>
+    </div>
+</section>
+
+
+
+
 {% endblock %}

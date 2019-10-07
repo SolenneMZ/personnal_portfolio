@@ -135,6 +135,47 @@ section {
         background-size: 20em 15em;
     }
 
+    /** PAGE PROJECT SECTION **/
+    #project_section {
+        background: linear-gradient(#000000, #2A2B2E);
+        color: white;
+    }
+
+    #project_section div {
+        width: 75%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #project_section .project_example {
+        height: 60vh;
+    }
+    #project_section .project_example p {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    #project_section .project_image {
+        width: 95%;
+    }
+
+    #project_section .project_information {
+        height: 40vh;
+        margin-right: 0.5em;
+        text-align: justify;
+    }
+
+    #project_section .project_information span {
+        font-weight: bold;
+    }
+
+    #project_section .project_information a {
+        justify-content: center;
+    }
+    /** /PAGE PROJECT SECTION **/
+
+
 /** /PROJECTS SECTION **/
 
 /** CONTACT SECTION **/
